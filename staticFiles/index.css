@@ -1,0 +1,51 @@
+/* Estilos específicos para a classe ".styled-table" */
+.styled-table {
+    border-collapse: collapse;
+    width: 60%;
+    background-color: #ffffff; /* Cor de fundo branca */
+    border: 2px solid #000000; /* Bordas pretas */
+}
+
+.styled-table th, .styled-table td {
+    border: 1px solid #000000; /* Bordas pretas para células */
+    padding: 8px; /* Espaçamento interno */
+    text-align: left; /* Alinhamento do texto */
+}
+
+.styled-table th {
+    background-color: #f2f2f2; /* Cor de fundo para os cabeçalhos */
+}
+
+body {
+    background: Linen;
+    margin-top: 50px;
+    margin-left: 100px;
+    }
+   
+h1 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 2.5em;
+    color: FireBrick;
+}
+
+h2 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 2.0em;
+    color: FireBrick;
+    margin-top: 50px;
+}
+
+h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.5em;
+    
+}
+
+
+h4 {
+
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.0em;
+
+
+}

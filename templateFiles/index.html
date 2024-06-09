@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../staticFiles/index.css">
+    <title>Registro de quedas</title>
+
+</head>
+<body>
+<section>
+    <h1>Registro de Quedas</h1>
+    <table class="styled-table">
+        <tr>
+            <th>Nome</th>
+            <th>Quedas</th>
+            <th>Data das Quedas</th>
+        </tr>
+        {% for nome, quedas, dataqueda in dados_quedas %}
+            <tr>
+                <td>{{ nome }}</td>
+                <td>{{ quedas }}</td>
+                <td>{{ dataqueda }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</section>
+ 
+<section>
+    <h2>Responsável pelo Deficiênte visual</h2>
+         <h3>Contato Via WhatsApp</h3>
+            <a href="https://wa.me/5521996209811" target="_blank">Converse conosco no WhatsApp</a>    
+</section>        
+
+<section>
+    <h4>Informações do PCD Visual</h4>    
+    <img src ="../staticFiles/teste.png" alt="QR Code contendo um PDF do PCD">    
+</section>
+        
+
+
+</body>
+</html>    
